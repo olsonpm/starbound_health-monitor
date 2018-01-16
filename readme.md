@@ -41,8 +41,8 @@ health monitor.
 
 - Accessible and opt-in
 
-You start with one in your space locker and you can purchase them for cheap at
-the Infinity Express if you lose it.  If you don't have a health monitor in your
+New characters start with one in their space locker.  They are also available for a cheap purchase at
+the Infinity Express.  If you don't have a health monitor in your
 inventory then it's life as normal for you.
 
 
