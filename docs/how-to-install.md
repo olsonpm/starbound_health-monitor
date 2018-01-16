@@ -15,7 +15,9 @@ keep a local succinct version here to link for my mods.
    e.g.
    https://github.com/olsonpm/starbound_health-monitor/releases/latest
 
-3. Download the `<mod>_and-deps.zip` file and unzip it into your mods directory
+3. Download the `<mod>_and-deps.zip` file and unzip it into your mods directory.
+
+   *If there's no zip file that means the mod doesn't have any dependencies.  In that case just download the &#42;.pak file and place it into your mods directory and you're done.  Ez Peasy.*
 
    e.g.
    download `health-monitor_and-deps.zip`  
@@ -29,4 +31,4 @@ keep a local succinct version here to link for my mods.
    ```
 
 <br>
-<strong>If you have any issues please let me know.  I want this to be easy :)</strong>
+<strong>If you have any issues please let me know.  I want this to be simple :)</strong>
