@@ -29,4 +29,4 @@ keep a local succinct version here to link for my mods.
    ```
 
 <br>
-**If you have any issues please let me know.  I want this to be easy :)**
+<strong>If you have any issues please let me know.  I want this to be easy :)</strong>
