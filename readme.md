@@ -1,8 +1,7 @@
-# Starbound - Health Monitor
-
+## Starbound - Health Monitor
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-### Table of Contents
+#### Table of Contents
 - [What is it?](#what-is-it)
 - [Why create it?](#why-create-it)
 - [How to install it?](#how-to-install-it)
@@ -28,6 +27,7 @@ unexpectedly.  In our defense the health bar is way top left!
 ### Health monitor details
 
 - The beep is the same one triggered upon low-hunger.
+
 Don't worry, the beep won't double up on you if you're both low on health
 and hunger
 
