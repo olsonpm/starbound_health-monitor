@@ -1,0 +1,139 @@
+{
+  "sounds": {
+    "beep": ["/sfx/interface/starving2.ogg"]
+  },
+  "particleEmitters": {
+    "bleedright1": {
+      "enabled": true,
+      "emissionRate": 1,
+      "particles": [
+        {
+          "particle": {
+            "animation": "/animations/lowhealth/bleedright1.animation",
+            "layer": "middle",
+            "initialVelocity": [0, 0],
+            "finalVelocity": [0, 0],
+            "position": [0.25, 0],
+            "size": 1,
+            "timeToLive": 1,
+            "type": "animated",
+            "variance": {
+              "position": [0.25, 1],
+              "size": 0.5
+            }
+          }
+        }
+      ]
+    },
+    "bleedright2": {
+      "enabled": true,
+      "emissionRate": 1,
+      "particles": [
+        {
+          "particle": {
+            "animation": "/animations/lowhealth/bleedright2.animation",
+            "layer": "middle",
+            "initialVelocity": [0, 0],
+            "finalVelocity": [0, 0],
+            "position": [0.25, 0],
+            "size": 1,
+            "timeToLive": 1,
+            "type": "animated",
+            "variance": {
+              "position": [0.25, 1],
+              "size": 0.5
+            }
+          }
+        }
+      ]
+    },
+    "bleedright3": {
+      "enabled": true,
+      "emissionRate": 1,
+      "particles": [
+        {
+          "particle": {
+            "animation": "/animations/lowhealth/bleedright3.animation",
+            "layer": "middle",
+            "initialVelocity": [0, 0],
+            "finalVelocity": [0, 0],
+            "position": [0.25, 0],
+            "size": 1,
+            "timeToLive": 1,
+            "type": "animated",
+            "variance": {
+              "position": [0.25, 1],
+              "size": 0.5
+            }
+          }
+        }
+      ]
+    },
+    "bleedleft1": {
+      "enabled": true,
+      "emissionRate": 1,
+      "particles": [
+        {
+          "particle": {
+            "animation": "/animations/lowhealth/bleedleft1.animation",
+            "layer": "middle",
+            "initialVelocity": [0, 0],
+            "finalVelocity": [0, 0],
+            "position": [-0.25, 0],
+            "size": 1,
+            "timeToLive": 1,
+            "type": "animated",
+            "variance": {
+              "position": [-0.25, 1],
+              "size": 0.5
+            }
+          }
+        }
+      ]
+    },
+    "bleedleft2": {
+      "enabled": true,
+      "emissionRate": 1,
+      "particles": [
+        {
+          "particle": {
+            "animation": "/animations/lowhealth/bleedleft2.animation",
+            "layer": "middle",
+            "initialVelocity": [0, 0],
+            "finalVelocity": [0, 0],
+            "position": [-0.25, 0],
+            "size": 1,
+            "timeToLive": 1,
+            "type": "animated",
+            "variance": {
+              "position": [-0.25, 1],
+              "size": 0.5
+            }
+          }
+        }
+      ]
+    },
+    "bleedleft3": {
+      "enabled": true,
+      "emissionRate": 1,
+      "particles": [
+        {
+          "particle": {
+            "animation": "/animations/lowhealth/bleedleft3.animation",
+            "layer": "middle",
+            "initialVelocity": [0, 0],
+            "finalVelocity": [0, 0],
+            "position": [-0.25, 0],
+            "size": 1,
+            "timeToLive": 1,
+            "type": "animated",
+            "variance": {
+              "position": [-0.25, 1],
+              "size": 0.5
+            }
+          }
+        }
+      ]
+    }
+  }
+}

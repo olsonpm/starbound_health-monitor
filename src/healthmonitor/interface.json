@@ -1,0 +1,85 @@
+{
+  "gui": {
+    "background": {
+      "zlevel": 0,
+      "type": "background",
+      "fileHeader": "/healthmonitor/header.png",
+      "fileBody": "/healthmonitor/body.png",
+      "fileFooter": "/healthmonitor/footer.png"
+    },
+		"windowtitle": {
+			"type": "label",
+			"fontSize": 16,
+      "hAnchor": "mid",
+			"position": [118, 170],
+			"value": "Health Monitor",
+			"zlevel": 1
+		},
+    "percentDescription": {
+      "type": "label",
+      "position": [118, 142],
+      "hAnchor": "mid",
+      "wrapWidth": 180,
+      "value": "The percent at which you beep and bleed!"
+    },
+    "decrease": {
+      "type": "button",
+      "base": "/interface/pickleft.png",
+      "hover": "/interface/pickleft.png?brightness=30",
+      "hAnchor": "mid",
+      "position": [86, 120],
+      "data": -0.05,
+      "pressedOffset": [0, -1],
+      "callback": "healthMonitor.interface.callback.modifyPercent"
+    },
+    "percentLabel": {
+      "type": "label",
+      "position": [118, 120],
+      "hAnchor": "mid",
+      "value": "Replace Me"
+    },
+    "increase": {
+      "type": "button",
+      "base": "/interface/pickright.png",
+      "hover": "/interface/pickright.png?brightness=30",
+      "hAnchor": "mid",
+      "position": [138, 120],
+      "data": 0.05,
+      "pressedOffset": [0, -1],
+      "callback": "healthMonitor.interface.callback.modifyPercent"
+    },
+    "toggleLabel": {
+      "type": "label",
+      "position": [86, 90],
+      "wrapWidth": 200,
+      "value": "Enabled:"
+    },
+    "isOnCheckbox": {
+      "type": "button",
+      "checkable": true,
+      "checked": false,
+      "base": "/interface/optionsmenu/checkboxnocheck.png",
+      "hover": "/interface/optionsmenu/checkboxnocheckhover.png",
+      "baseImageChecked": "/interface/optionsmenu/checkboxcheck.png",
+      "hoverImageChecked": "/interface/optionsmenu/checkboxcheckhover.png",
+      "position": [138, 90],
+      "callback": "healthMonitor.interface.callback.toggleIsOn"
+    },
+    "close": {
+      "type": "button",
+      "position": [90, 30],
+      "caption": "Close",
+      "base": "/interface/button.png",
+      "hover": "/interface/buttonhover.png",
+      "callback": "close"
+    }
+  },
+  "scripts" : [
+    "/healthmonitor/interface.lua"
+  ],
+  "scriptDelta" : 1,
+  "scriptWidgetCallbacks": [
+    "healthMonitor.interface.callback.modifyPercent",
+    "healthMonitor.interface.callback.toggleIsOn"
+  ]
+}

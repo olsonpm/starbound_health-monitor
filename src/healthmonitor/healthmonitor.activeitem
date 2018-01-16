@@ -1,0 +1,12 @@
+{
+  "itemName": "healthmonitor",
+  "price": 1,
+  "maxStack": 1,
+  "rarity": "Essential",
+  "category": "tool",
+  "description": "Beeps and bleeds when your health reaches a configurable percent.",
+  "shortdescription": "Health Monitor",
+  "inventoryIcon": "healthmonitor.png",
+  "scripts": ["activeitem.lua"],
+  "scriptDelta": 100
+}

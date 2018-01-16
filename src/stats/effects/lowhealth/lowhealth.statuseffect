@@ -1,0 +1,14 @@
+{
+  "name": "lowhealth",
+  "effectConfig": {
+    "particleEmitters": ["customlove"]
+  },
+  "defaultDuration": 1,
+
+  "scripts": ["lowhealth.lua"],
+
+  "animationConfig": "lowhealth.animation",
+
+  "label": "Low Health",
+  "icon": "/stats/effects/lowhealth/icon.png"
+}

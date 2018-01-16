@@ -1,0 +1,8 @@
+{
+  "author": "Philip Olson",
+  "description": "Adds a 'Health Monitor' item which beeps and bleeds when your health reaches a configurable percent.",
+  "friendlyName": "Health Monitor",
+  "name": "health monitor",
+  "requires": ["lua hooks", "quest scope hook"],
+  "version": "0.1"
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/initscripts/-",
+    "value": "/healthmonitor/hooks.lua"
+  }
+]
