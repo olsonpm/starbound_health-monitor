@@ -21,7 +21,7 @@ unexpectedly.  In our defense the health bar is way top left!
 
 
 ### How to install it?
-*todo*
+[Like this](docs/how-to-install.md)
 
 
 ### Health monitor details
