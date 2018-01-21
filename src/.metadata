@@ -4,5 +4,5 @@
   "friendlyName": "Health Monitor",
   "name": "health monitor",
   "requires": ["lua hooks", "quest scope hook"],
-  "version": "0.1"
+  "version": "0.2"
 }
