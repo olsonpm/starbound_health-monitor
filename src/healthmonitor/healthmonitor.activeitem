@@ -4,9 +4,11 @@
   "maxStack": 1,
   "rarity": "Essential",
   "category": "tool",
+  "tooltipKind" : "tool",
   "description": "Beeps and bleeds when your health reaches a configurable percent.",
   "shortdescription": "Health Monitor",
-  "inventoryIcon": "healthmonitor.png",
+  "largeImage": "item_large.png",
+  "inventoryIcon": "item.png",
   "scripts": ["activeitem.lua"],
   "scriptDelta": 100
 }
