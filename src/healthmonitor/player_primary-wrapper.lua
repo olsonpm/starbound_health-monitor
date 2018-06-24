@@ -44,28 +44,28 @@ function update(dt, ...)
       status.clearPersistentEffects(id.lowHealthEffect)
       self.wasLowHealthEffectEnabled = false
     end
-    return
-  end
-  self.wasLowHealthEffectEnabled = true
+  else
+    self.wasLowHealthEffectEnabled = true
 
-  local hasLessThanConfiguredHealth = status.resourcePercentage("health") <= hmp.getActiveAtPercent()
+    local hasLessThanConfiguredHealth = status.resourcePercentage("health") <= hmp.getActiveAtPercent()
 
-  --
-  -- Not sure why the devs don't allow us to specify a single persistent
-  --   effect, i.e. we're forced to use their concept of a "category".  It'd
-  --   also be nice to have a definition for "category".  The vanilla code
-  --   doesn't really explain it - thus I'm stuck writing some repetitive
-  --   strings (lowHealth && lowhealth)
-  --
-  local hasLowHealthEffect = contains(
-    status.getPersistentEffects(id.lowHealthEffect),
-    "lowhealth"
-  )
+    --
+    -- Not sure why the devs don't allow us to specify a single persistent
+    --   effect, i.e. we're forced to use their concept of a "category".  It'd
+    --   also be nice to have a definition for "category".  The vanilla code
+    --   doesn't really explain it - thus I'm stuck writing some repetitive
+    --   strings (lowHealth && lowhealth)
+    --
+    local hasLowHealthEffect = contains(
+      status.getPersistentEffects(id.lowHealthEffect),
+      "lowhealth"
+    )
 
-  if hasLessThanConfiguredHealth and not hasLowHealthEffect then
-    status.addPersistentEffect(id.lowHealthEffect, "lowhealth")
-  elseif not hasLessThanConfiguredHealth and hasLowHealthEffect then
-    status.clearPersistentEffects(id.lowHealthEffect)
+    if hasLessThanConfiguredHealth and not hasLowHealthEffect then
+      status.addPersistentEffect(id.lowHealthEffect, "lowhealth")
+    elseif not hasLessThanConfiguredHealth and hasLowHealthEffect then
+      status.clearPersistentEffects(id.lowHealthEffect)
+    end
   end
 
   old.update(dt, ...)
